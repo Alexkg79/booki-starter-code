@@ -16,8 +16,95 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
+/* HEADER */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+.header_li_margin{
+    margin-left: 70px;
+}
+.logo{
+    width: 64px;
+    height: 22px;
+}
+nav ul li:hover{
+    color: #0065fc;
+}
+
+/* RECHERCHE */
+.recherche h2{
+    margin-bottom: -10px;
+}
+form{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+form i{
+    background-color: #F2F2F2;
+    height: 50px;
+    width: 52px;
+    border-radius: 50px 0 0 50px;
+}
+form input[type="text"]{
+    height: 47px;
+    width: 194px;
+    border: 1px solid #F2F2F2;
+}
+form input[type="submit"]{
+    height: 50px;
+    width: 194px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: 700;
+    border-radius: 0 50px 50px 0;
+    border: 0;
+}
+.filtre{
+    display: flex;
+    margin-bottom: 35px;
+}
+.filtre p{
+    margin-right: 15px;
+    font-weight: 700;
+}
+.filtre button{
+    margin-right: 15px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid #d5d5d5;
+    display: flex;
+    align-items: center;
+    transition: 300ms;
+
+}
+.filtre button:hover{
+    background-color: #DEEBFF;
+    transition: 300ms;
+
+}
+.info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.info i{
+    margin-right: 10px;
+}
+
+/* // */
 .main-container {
     width: 100%;
     max-width: 1440px;
