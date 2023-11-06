@@ -280,7 +280,7 @@ footer ul li{
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
-    background-image: url("../images/background_img/Desktop.png");
+    /* background-image: url("../images/background_img/Desktop.png"); */
 }
 
 a {
