@@ -583,7 +583,7 @@ a {
         position: absolute;
         right: 0;
     }
-    .container_form form button[type="submit"] p{
+    .container_form form button[type="submit"] span{
         visibility: hidden;
     }
     .container_form form button[type="submit"] #btnIconSearch{
