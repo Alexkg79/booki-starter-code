@@ -66,6 +66,7 @@ nav ul li:nth-child(1):hover{
         visibility: visible;
     }
 }
+
 nav .traitBleuTwo{
     visibility: hidden;
 }
@@ -135,8 +136,9 @@ form button[type="submit"] #btnIconSearch{
     margin-right: 26px;
     font-weight: 600;
 }
-.filtre p{
+.filtre span{
     margin-right: 18px;
+    font-weight: 600;
 }
 .filtre button{
     height: 50px;
@@ -148,19 +150,19 @@ form button[type="submit"] #btnIconSearch{
     display: flex;
     align-items: center;
 }
-.filtre .btn_container{
+.filtre{
     display: flex;
     align-items: center;
-    margin-left: 10px;
 }
-.filtre .btn_container i{
+.filtre button i{
     margin-right: 15px;
+    margin-left: 10px;
 }
 .filtre button:hover{
     background-color: #DEEBFF;
     transition: 300ms;
-
 }
+
 .info{
     display: flex;
     align-items: center;
@@ -233,6 +235,7 @@ form button[type="submit"] #btnIconSearch{
     grid-column-gap: 10px;
 }
 .activites h2{
+    
     margin-top: 15px;
     margin-bottom: 30px;
     margin-left: 22px;
@@ -528,7 +531,7 @@ a {
         .traitBleuTwo{
             position: absolute;
             top: 113px;
-            right: ;: 0;
+            right: 0;
             width: 50%;
             border: 1px solid var(--main-color);
             visibility: visible;
